@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hyrule Compendium</title>
+</head>
+
+<body>
+    <div class="image-container image1"></div>
+    <div class="image-container image2"></div>  
+    <header>
+        <div class="title-container">
+            <img src="img/heading-shape.svg" alt="Minha Imagem">
+            <h1>Hyrule Compendium</h1>
+            <img src="img/heading-shape.svg" alt="Minha Imagem">
+        </div>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Inicie sua jornada..." id="termoBusca">
+            <button onclick=buscaPersonagem()><b>Buscar</b></button>
+        </section>
+        <section class="resultados-pesquisa" id="resultado">            
+        </section>
+    </main>
+    <footer>
+        <b>
+            <p>2024. Hyrule Compendium. Todos os direitos reservados</p>
+            <p>Desenvolvido por Rodrigo Vieira. Entre em contato acessando <a href="https://dsrodrigovieira.github.io/portfolio" target="_blank">meu portfólio</a></p>
+        </b>            
+    </footer>
+    <script src="dados.js"></script>  
+    <script src="app.js"></script>
+</body>
+
+</html>
